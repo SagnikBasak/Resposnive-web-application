@@ -143,10 +143,10 @@ form .user-details .input-box{
   }
 }
 
-#check0, #check1, #check2, #check3, #check4{
+#check0, #check1, #check2, #check3, #check4, #check5{
   display: block;
   position: relative;
-  margin: 2%;
+  margin: 1%;
   color: red;
-  font-size: 14px;
+  font-size: 12px;
 }

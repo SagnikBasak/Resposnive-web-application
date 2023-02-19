@@ -47,11 +47,11 @@ function validation(){
     return false;
   }
 
-/*//For Password & Confirm password field
-  if(pass == ""){
+//For Password & Confirm password field
+  /*if(pass == ""){
     document.getElementById('passwords').innerHTML ="** Please fill the password";
     return false;
-  }
+  }*/
   if(pass!=confirmpass){
     document.getElementById('confrmpass').innerHTML ="** Password does not match the confirm password";
     return false;
@@ -59,7 +59,7 @@ function validation(){
   if(confirmpass == ""){
     document.getElementById('confrmpass').innerHTML ="** Please fill the confirm password field";
     return false;
-  }*/
+  }
 }
 
 function pass_check()
@@ -116,5 +116,15 @@ function pass_check()
     {
        document.getElementById("check4").style.color="green";
        document.getElementById("check4").style.transitionDuration = "1s";
+    }
+
+
+    if(pass == ""){
+      document.getElementById("check5").style.color="red";
+    }
+    else
+    {
+       document.getElementById("check5").style.color="green";
+       document.getElementById("check5").style.transitionDuration = "1s";
     }
 }
