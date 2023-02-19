@@ -6,7 +6,7 @@ to save the data in the database.
 
 use phpmyadmin with the below listed structure.
 
-#       Name        Type                    Collation               Attributes	    Null    Default     Comments	Extra	     
+#       Name        Type                    Collation               Attributes	    Null    Default     Comments    Extra	     
 -----------------------------------------------------------------------------------------------------------------------------------------------
 1       id          int(11)                                                         No      None                    AUTO_INCREMEN    
 2       fullName    varchar(100)            utf8mb4_general_ci                      No      None			                        
